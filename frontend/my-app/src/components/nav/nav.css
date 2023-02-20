@@ -1,0 +1,61 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-inline: 5%;
+    font-size: 16px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+    color: #A57C40;
+}
+.logo-container > img {
+    margin-right: 10px;
+}
+
+.navigation-section { 
+    color: #A57C40;
+}
+
+.navigation-section a:not(.active)::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #733620;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.navigation-section a:not(.active):hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.navigation-section a {
+    display: inline-block;
+    position: relative;
+    padding: 12px 16px;
+}
+
+.active {
+    color: #733620 !important;
+}
+
+.active::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(1);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #733620;
+    transform-origin: bottom right;
+}

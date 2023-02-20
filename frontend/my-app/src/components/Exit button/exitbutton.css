@@ -1,0 +1,11 @@
+.exit-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 8px;
+    margin-top: 2px;
+    background: none;
+    border: none;
+}

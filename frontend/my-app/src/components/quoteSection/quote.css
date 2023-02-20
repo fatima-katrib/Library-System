@@ -1,0 +1,25 @@
+.quote-section {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.quote-section img {
+  width: 30vw;
+  object-fit: cover;
+}
+.quote-text {
+  background-color: #733620;
+  padding: 140px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#quote{
+  font-size: 2.5rem;
+  text-align: justify;
+}
+.quote-section p{
+  padding-block: 36px;
+  text-align: end;
+  font-size: 1.5rem;
+}

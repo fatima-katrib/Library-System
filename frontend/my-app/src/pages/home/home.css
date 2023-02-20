@@ -1,0 +1,35 @@
+.home {
+  color: #260101;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  padding-block: 24px;
+}
+.home h1 {
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+.home h2 {
+  font-size: 32px;
+  margin-block: 4px;
+}
+.genre-section,
+.how-it-works-section {
+  text-align: center;
+}
+
+.home h3 {
+  font-size: 20px;
+  /* padding-bottom: 24px; */
+}
+.heroSection p {
+  width: 85%;
+  font-size: 16px;
+  padding-block: 24px;
+}
+.heroSection,
+.genre-section,
+.how-it-works-section {
+  padding-inline: 10%;
+}

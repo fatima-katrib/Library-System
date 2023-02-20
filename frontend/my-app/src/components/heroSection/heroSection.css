@@ -1,0 +1,44 @@
+.heroSection-main  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  gap:40px;
+}
+
+.carousel {
+  width: 25vw;
+  height: 70vh
+}
+
+.popular-books {
+  width: 50vw;
+}
+.popular-books button {
+  display: block;
+  padding: 16px 24px;
+  margin-inline: auto;
+  font-size: 16px;
+  color: #fff;
+  background: rgba(115, 54, 32, 1);
+  border: 0;
+  border-radius: 25px;
+  transition: all 0.25s ease-in;
+}
+.popular-books button:hover {
+  transform: scale(1.1);
+}
+
+#author {
+  color: rgba(115, 54, 32, 0.5);
+  /* font-weight: 700; */
+}
+
+#description,
+#title {
+  color: #733620;
+}
+#description {
+  /* font-weight: 400; */
+  text-align: justify;
+}

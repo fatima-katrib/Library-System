@@ -1,0 +1,41 @@
+.footer-box{
+  background-color: #260101;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0;
+  font-size: 14px;
+ 
+}
+.media{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 12vw;
+}
+.social-media img {
+  padding: 0px 20px;
+}
+.information ul{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.footer-box a{
+  text-decoration: none;
+  color:white;
+  padding: 2px 0;
+}
+.footer-box a:hover{
+  color: #A57C40;
+}
+.footer-box h4{
+  margin: 12px 0;
+}
+.footer-box p{
+line-height: 20px;
+}
+.phone p:last-child{
+  padding-top: 20px;
+}

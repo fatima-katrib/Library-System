@@ -1,0 +1,23 @@
+.selection-container {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.selection-container select {
+    font-size: 14px;
+    width: 120px;
+    height: fit-content;
+    padding:6px;
+    margin-right: 15px;
+    color: #260101;
+    background: rgba(115, 54, 32, 0.25);
+    border: 0;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+}
+
+.add-book {
+    margin-left: auto;
+}
